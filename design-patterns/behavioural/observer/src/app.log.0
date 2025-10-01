@@ -1,0 +1,16 @@
+Sep 28, 2025 3:04:19 PM model.Activity <init>
+FINE: Created activity A100 with status IN_PROGRESS
+Sep 28, 2025 3:04:20 PM model.TodoList addActivity
+INFO: Added activity: A100
+Sep 28, 2025 3:04:20 PM model.Activity <init>
+FINE: Created activity A101 with status IN_PROGRESS
+Sep 28, 2025 3:04:20 PM model.TodoList addActivity
+INFO: Added activity: A101
+Sep 28, 2025 3:04:20 PM model.TodoList registerObserverToActivity
+INFO: Observer registered to activity A100
+Sep 28, 2025 3:04:20 PM model.TodoList registerObserverToActivity
+INFO: Observer registered to activity A101
+Sep 28, 2025 3:04:20 PM observer.Creator notify
+INFO: Notify Alice (alice@example.com): Activity 'Write report' (id=A100) ended on 2025-09-28
+Sep 28, 2025 3:04:20 PM model.Activity checkAndNotifyIfEnded
+INFO: Activity A100 ended and observers notified.
